@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B35B97FF1950D00D00B78397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35B97FE1950D00D00B78397 /* Foundation.framework */; };
+		B35B98011950D00D00B78397 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35B98001950D00D00B78397 /* CoreGraphics.framework */; };
+		B35B98031950D00D00B78397 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35B98021950D00D00B78397 /* UIKit.framework */; };
+		B35B98091950D00D00B78397 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B35B98071950D00D00B78397 /* InfoPlist.strings */; };
+		B35B980B1950D00D00B78397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B980A1950D00D00B78397 /* main.m */; };
+		B35B980F1950D00D00B78397 /* LNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B980E1950D00D00B78397 /* LNAppDelegate.m */; };
+		B35B98121950D00D00B78397 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35B98101950D00D00B78397 /* Main_iPhone.storyboard */; };
+		B35B98151950D00D00B78397 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35B98131950D00D00B78397 /* Main_iPad.storyboard */; };
+		B35B98181950D00D00B78397 /* LNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B98171950D00D00B78397 /* LNViewController.m */; };
+		B35B981A1950D00D00B78397 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35B98191950D00D00B78397 /* Images.xcassets */; };
+		B35B98211950D00D00B78397 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35B98201950D00D00B78397 /* XCTest.framework */; };
+		B35B98221950D00D00B78397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35B97FE1950D00D00B78397 /* Foundation.framework */; };
+		B35B98231950D00D00B78397 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35B98021950D00D00B78397 /* UIKit.framework */; };
+		B35B982B1950D00D00B78397 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B35B98291950D00D00B78397 /* InfoPlist.strings */; };
+		B35B982D1950D00D00B78397 /* LifeVNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B982C1950D00D00B78397 /* LifeVNTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B35B98241950D00D00B78397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35B97F31950D00D00B78397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35B97FA1950D00D00B78397;
+			remoteInfo = LifeVN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B35B97FB1950D00D00B78397 /* LifeVN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeVN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35B97FE1950D00D00B78397 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B35B98001950D00D00B78397 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B35B98021950D00D00B78397 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B35B98061950D00D00B78397 /* LifeVN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeVN-Info.plist"; sourceTree = "<group>"; };
+		B35B98081950D00D00B78397 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B35B980A1950D00D00B78397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B35B980C1950D00D00B78397 /* LifeVN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LifeVN-Prefix.pch"; sourceTree = "<group>"; };
+		B35B980D1950D00D00B78397 /* LNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAppDelegate.h; sourceTree = "<group>"; };
+		B35B980E1950D00D00B78397 /* LNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAppDelegate.m; sourceTree = "<group>"; };
+		B35B98111950D00D00B78397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B35B98141950D00D00B78397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B35B98161950D00D00B78397 /* LNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNViewController.h; sourceTree = "<group>"; };
+		B35B98171950D00D00B78397 /* LNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNViewController.m; sourceTree = "<group>"; };
+		B35B98191950D00D00B78397 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B35B981F1950D00D00B78397 /* LifeVNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeVNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35B98201950D00D00B78397 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B35B98281950D00D00B78397 /* LifeVNTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeVNTests-Info.plist"; sourceTree = "<group>"; };
+		B35B982A1950D00D00B78397 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B35B982C1950D00D00B78397 /* LifeVNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeVNTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B35B97F81950D00D00B78397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B98011950D00D00B78397 /* CoreGraphics.framework in Frameworks */,
+				B35B98031950D00D00B78397 /* UIKit.framework in Frameworks */,
+				B35B97FF1950D00D00B78397 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35B981C1950D00D00B78397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B98211950D00D00B78397 /* XCTest.framework in Frameworks */,
+				B35B98231950D00D00B78397 /* UIKit.framework in Frameworks */,
+				B35B98221950D00D00B78397 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B35B97F21950D00D00B78397 = {
+			isa = PBXGroup;
+			children = (
+				B35B98041950D00D00B78397 /* LifeVN */,
+				B35B98261950D00D00B78397 /* LifeVNTests */,
+				B35B97FD1950D00D00B78397 /* Frameworks */,
+				B35B97FC1950D00D00B78397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B35B97FC1950D00D00B78397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35B97FB1950D00D00B78397 /* LifeVN.app */,
+				B35B981F1950D00D00B78397 /* LifeVNTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B35B97FD1950D00D00B78397 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B35B97FE1950D00D00B78397 /* Foundation.framework */,
+				B35B98001950D00D00B78397 /* CoreGraphics.framework */,
+				B35B98021950D00D00B78397 /* UIKit.framework */,
+				B35B98201950D00D00B78397 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B35B98041950D00D00B78397 /* LifeVN */ = {
+			isa = PBXGroup;
+			children = (
+				B35B980D1950D00D00B78397 /* LNAppDelegate.h */,
+				B35B980E1950D00D00B78397 /* LNAppDelegate.m */,
+				B35B98101950D00D00B78397 /* Main_iPhone.storyboard */,
+				B35B98131950D00D00B78397 /* Main_iPad.storyboard */,
+				B35B98161950D00D00B78397 /* LNViewController.h */,
+				B35B98171950D00D00B78397 /* LNViewController.m */,
+				B35B98191950D00D00B78397 /* Images.xcassets */,
+				B35B98051950D00D00B78397 /* Supporting Files */,
+			);
+			path = LifeVN;
+			sourceTree = "<group>";
+		};
+		B35B98051950D00D00B78397 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B35B98061950D00D00B78397 /* LifeVN-Info.plist */,
+				B35B98071950D00D00B78397 /* InfoPlist.strings */,
+				B35B980A1950D00D00B78397 /* main.m */,
+				B35B980C1950D00D00B78397 /* LifeVN-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B35B98261950D00D00B78397 /* LifeVNTests */ = {
+			isa = PBXGroup;
+			children = (
+				B35B982C1950D00D00B78397 /* LifeVNTests.m */,
+				B35B98271950D00D00B78397 /* Supporting Files */,
+			);
+			path = LifeVNTests;
+			sourceTree = "<group>";
+		};
+		B35B98271950D00D00B78397 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B35B98281950D00D00B78397 /* LifeVNTests-Info.plist */,
+				B35B98291950D00D00B78397 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B35B97FA1950D00D00B78397 /* LifeVN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35B98301950D00D00B78397 /* Build configuration list for PBXNativeTarget "LifeVN" */;
+			buildPhases = (
+				B35B97F71950D00D00B78397 /* Sources */,
+				B35B97F81950D00D00B78397 /* Frameworks */,
+				B35B97F91950D00D00B78397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeVN;
+			productName = LifeVN;
+			productReference = B35B97FB1950D00D00B78397 /* LifeVN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B35B981E1950D00D00B78397 /* LifeVNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35B98331950D00D00B78397 /* Build configuration list for PBXNativeTarget "LifeVNTests" */;
+			buildPhases = (
+				B35B981B1950D00D00B78397 /* Sources */,
+				B35B981C1950D00D00B78397 /* Frameworks */,
+				B35B981D1950D00D00B78397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35B98251950D00D00B78397 /* PBXTargetDependency */,
+			);
+			name = LifeVNTests;
+			productName = LifeVNTests;
+			productReference = B35B981F1950D00D00B78397 /* LifeVNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B35B97F31950D00D00B78397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LN;
+				TargetAttributes = {
+					B35B981E1950D00D00B78397 = {
+						TestTargetID = B35B97FA1950D00D00B78397;
+					};
+				};
+			};
+			buildConfigurationList = B35B97F61950D00D00B78397 /* Build configuration list for PBXProject "LifeVN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B35B97F21950D00D00B78397;
+			productRefGroup = B35B97FC1950D00D00B78397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B35B97FA1950D00D00B78397 /* LifeVN */,
+				B35B981E1950D00D00B78397 /* LifeVNTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B35B97F91950D00D00B78397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B98151950D00D00B78397 /* Main_iPad.storyboard in Resources */,
+				B35B981A1950D00D00B78397 /* Images.xcassets in Resources */,
+				B35B98121950D00D00B78397 /* Main_iPhone.storyboard in Resources */,
+				B35B98091950D00D00B78397 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35B981D1950D00D00B78397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B982B1950D00D00B78397 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B35B97F71950D00D00B78397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B980F1950D00D00B78397 /* LNAppDelegate.m in Sources */,
+				B35B980B1950D00D00B78397 /* main.m in Sources */,
+				B35B98181950D00D00B78397 /* LNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35B981B1950D00D00B78397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B982D1950D00D00B78397 /* LifeVNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B35B98251950D00D00B78397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35B97FA1950D00D00B78397 /* LifeVN */;
+			targetProxy = B35B98241950D00D00B78397 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B35B98071950D00D00B78397 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35B98081950D00D00B78397 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B35B98101950D00D00B78397 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35B98111950D00D00B78397 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B35B98131950D00D00B78397 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35B98141950D00D00B78397 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B35B98291950D00D00B78397 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35B982A1950D00D00B78397 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B35B982E1950D00D00B78397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B35B982F1950D00D00B78397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B35B98311950D00D00B78397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeVN/LifeVN-Prefix.pch";
+				INFOPLIST_FILE = "LifeVN/LifeVN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B35B98321950D00D00B78397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeVN/LifeVN-Prefix.pch";
+				INFOPLIST_FILE = "LifeVN/LifeVN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B35B98341950D00D00B78397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LifeVN.app/LifeVN";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeVN/LifeVN-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LifeVNTests/LifeVNTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B35B98351950D00D00B78397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LifeVN.app/LifeVN";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeVN/LifeVN-Prefix.pch";
+				INFOPLIST_FILE = "LifeVNTests/LifeVNTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B35B97F61950D00D00B78397 /* Build configuration list for PBXProject "LifeVN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35B982E1950D00D00B78397 /* Debug */,
+				B35B982F1950D00D00B78397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35B98301950D00D00B78397 /* Build configuration list for PBXNativeTarget "LifeVN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35B98311950D00D00B78397 /* Debug */,
+				B35B98321950D00D00B78397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B35B98331950D00D00B78397 /* Build configuration list for PBXNativeTarget "LifeVNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35B98341950D00D00B78397 /* Debug */,
+				B35B98351950D00D00B78397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B35B97F31950D00D00B78397 /* Project object */;
+}
