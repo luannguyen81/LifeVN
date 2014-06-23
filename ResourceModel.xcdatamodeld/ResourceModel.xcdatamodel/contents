@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6172.12" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AppUser" representedClassName="AppUser" syncable="YES">
+        <attribute name="appUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ResourceCategory" syncable="YES"/>
+    </entity>
+    <entity name="ResourceCategory" representedClassName="ResourceCategory" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="resourceLinks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ResourceLink" syncable="YES"/>
+    </entity>
+    <entity name="ResourceLink" representedClassName="ResourceLink" syncable="YES">
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ResourceLink" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="ResourceCategory" positionX="-54" positionY="-9" width="128" height="73"/>
+        <element name="AppUser" positionX="-36" positionY="9" width="128" height="73"/>
+    </elements>
+</model>

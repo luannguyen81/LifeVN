@@ -7,13 +7,27 @@
 //
 
 #import "LNAppDelegate.h"
+#import "LNAppUser.h"
+#import "LNViewController.h"
+#import "MagicalRecord.h"
+#import "MagicalRecord+Setup.h"
 
 @implementation LNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+//  NSURL *url = [[NSBundle mainBundle] URLForResource:@"DefaultCategories" withExtension:@"plist"];
+//  NSDictionary *userDictionary = [[NSDictionary alloc] initWithContentsOfURL:url];
+//  LNAppUser *user = [LNAppUser appUserWithDictionary:userDictionary];
+  [MagicalRecord setupCoreDataStackWithStoreNamed:@"MyDatabase.sqlite"];
+  self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+  LNViewController *viewController = [[LNViewController alloc] init];
+  [self.window addSubview:viewController.view];
+  self.window.rootViewController = viewController;
+  
+  [self.window makeKeyAndVisible];
+  return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

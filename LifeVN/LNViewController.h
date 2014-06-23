@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LNAppUser.h"
 
 @interface LNViewController : UIViewController
 
+- (id)initWithAppUser:(LNAppUser*)user;
 @end
