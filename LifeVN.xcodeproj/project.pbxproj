@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F585767195A7AD500079105 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F585766195A7AD500079105 /* MainStoryboard.storyboard */; };
 		95A3C53F225B44CB97A1A04D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F121B8492EC428CAE7584FF /* libPods.a */; };
 		B35B97FF1950D00D00B78397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35B97FE1950D00D00B78397 /* Foundation.framework */; };
 		B35B98011950D00D00B78397 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35B98001950D00D00B78397 /* CoreGraphics.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F585766195A7AD500079105 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3F121B8492EC428CAE7584FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5591A7F4CBA1495AB597B2B5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		B35B97FB1950D00D00B78397 /* LifeVN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeVN.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 		B35B97F21950D00D00B78397 = {
 			isa = PBXGroup;
 			children = (
+				0F585766195A7AD500079105 /* MainStoryboard.storyboard */,
 				B3F5C78419528D600022F400 /* ResourceModel.xcdatamodeld */,
 				B3F5C78D19528E9F0022F400 /* AppUser.h */,
 				B3F5C78E19528E9F0022F400 /* AppUser.m */,
@@ -299,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F585767195A7AD500079105 /* MainStoryboard.storyboard in Resources */,
 				B35B98471950D91A00B78397 /* DefaultCategories.plist in Resources */,
 				B35B981A1950D00D00B78397 /* Images.xcassets in Resources */,
 				B35B98091950D00D00B78397 /* InfoPlist.strings in Resources */,
@@ -489,6 +493,7 @@
 				INFOPLIST_FILE = "LifeVN/LifeVN-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -505,6 +510,7 @@
 				INFOPLIST_FILE = "LifeVN/LifeVN-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

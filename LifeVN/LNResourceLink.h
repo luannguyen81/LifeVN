@@ -12,5 +12,6 @@
 + (instancetype)resourceLinkWithDictionary:(NSDictionary *)dictionary;
 
 @property (nonatomic) NSInteger rating;
+@property (nonatomic) NSURL *resourceURL;
 - (UIImage*)resourceThumbnailImage;
 @end

@@ -6,41 +6,7 @@
 	<string></string>
 	<key>categories</key>
 	<array>
-		<dict>
-			<key>name</key>
-			<string>News</string>
-			<key>resourceLinks</key>
-			<array>
-				<dict>
-					<key>thumbnail</key>
-					<string>http://hk.st.f1.vnecdn.net/responsive/i/v5/graphics/img_logo_vne_web.gif</string>
-					<key>link</key>
-					<string>http://vnexpress.net/</string>
-					<key>title</key>
-					<string>VNExpress</string>
-					<key>rating</key>
-					<integer>0</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Movies</string>
-			<key>resourceLinks</key>
-			<array>
-				<dict>
-					<key>rating</key>
-					<integer>0</integer>
-					<key>thumbnail</key>
-					<string>http://hk.st.f1.vnecdn.net/responsive/i/v5/graphics/img_logo_vne_web.gif</string>
-					<key>link</key>
-					<string>http://vnexpress.net/</string>
-					<key>title</key>
-					<string>VNExpress</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
+        <dict>
 			<key>name</key>
 			<string>Youtube</string>
 			<key>resourceLinks</key>
@@ -71,6 +37,40 @@
 					<string>http://facebook.com/</string>
 					<key>title</key>
 					<string>Facebook</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>News</string>
+			<key>resourceLinks</key>
+			<array>
+				<dict>
+					<key>thumbnail</key>
+					<string>http://hk.st.f1.vnecdn.net/responsive/i/v5/graphics/img_logo_vne_web.gif</string>
+					<key>link</key>
+					<string>http://vnexpress.net/</string>
+					<key>title</key>
+					<string>VNExpress</string>
+					<key>rating</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Movies</string>
+			<key>resourceLinks</key>
+			<array>
+				<dict>
+					<key>rating</key>
+					<integer>0</integer>
+					<key>thumbnail</key>
+					<string>http://hk.st.f1.vnecdn.net/responsive/i/v5/graphics/img_logo_vne_web.gif</string>
+					<key>link</key>
+					<string>http://phim88.com /</string>
+					<key>title</key>
+					<string>VNExpress</string>
 				</dict>
 			</array>
 		</dict>

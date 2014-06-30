@@ -30,3 +30,12 @@
 // images
 #define iAvatar @"avatar.png"
 #define iList_icon @"list_icon.png"
+#define iTopbarGoBack @"goBack.png"
+#define iTopbarGoForward @"goForward.png"
+#define iTopbarRefresh @"refresh.png"
+
+// UI constants
+#define kTopbarYOffset 20
+#define kTopbarHeight 50
+#define kDefaultiPadWidth 1024
+#define kDefaultiPadHeight 768

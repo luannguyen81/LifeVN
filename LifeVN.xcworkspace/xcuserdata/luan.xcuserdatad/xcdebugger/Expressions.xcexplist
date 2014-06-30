@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[LNViewController webViewDidStartLoad:]:LNViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "webView.requestURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LNViewController viewDidAppear:]:LNViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[LNViewController webView:didFailLoadWithError:]:LNViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[LNTopbarView layoutSubviews]:LNTopbarView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.goBack.currentImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LNViewController viewDidLoad]:LNViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.bounds.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LNTopbarView textFieldShouldReturn:]:LNTopbarView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LNViewController loadWebViewWithLinkURL:]:LNViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

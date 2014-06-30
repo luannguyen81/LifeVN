@@ -9,7 +9,6 @@
 #import "LNResourceLink.h"
 @interface LNResourceLink()
 @property (nonatomic) NSURL *thumbnailURL;
-@property (nonatomic) NSURL *resourceURL;
 @property (nonatomic) NSString *title;
 
 @end

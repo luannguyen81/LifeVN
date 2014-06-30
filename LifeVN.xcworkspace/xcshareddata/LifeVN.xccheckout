@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>98EEC422-064F-4038-BCD2-750A136489DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LifeVN</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F9DED062-376C-4D4C-91AE-05567F3A8921</key>
+		<string>https://github.com/luannguyen81/LifeVN.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LifeVN.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F9DED062-376C-4D4C-91AE-05567F3A8921</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/luannguyen81/LifeVN.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F9DED062-376C-4D4C-91AE-05567F3A8921</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9DED062-376C-4D4C-91AE-05567F3A8921</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LifeVN</string>
+		</dict>
+	</array>
+</dict>
+</plist>
